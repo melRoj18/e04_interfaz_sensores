@@ -1,17 +1,20 @@
-# e04_interfaz_sensores
+# E04 – Interfaz Adaptativa y Sensores
 
-A new Flutter project.
+App Flutter que muestra layouts adaptativos (NavigationBar ⇄ NavigationRail), lectura de sensores (acelerómetro, giroscopio), batería, información del dispositivo y gestión de permisos.
 
-## Getting Started
+## Estructura
 
-This project is a starting point for a Flutter application.
+- `lib/models/` – Entidades de datos
+- `lib/services/` – Acceso a plugins (sensores, batería, etc.)
+- `lib/providers/` – Estado con ChangeNotifier
+- `lib/ui/` – Pantallas y widgets
+- `lib/utils/` – Utilidades (breakpoints)
 
-A few resources to get you started if this is your first Flutter project:
+## Ejecución
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. `flutter pub get`
+2. `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> **Nota:** Los sensores requieren un dispositivo físico.
+
+## Video demostrativo
